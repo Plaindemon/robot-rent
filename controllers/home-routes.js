@@ -6,4 +6,13 @@ router.get('/', (req, res) => {
     res.render('homepage')
 });
 
+router.get('/dashboard', (req, res) => {
+    console.log('======================');
+    res.render('dashboard')
+});
+
+router.get('/login', (req, res) => {
+    console.log('======================');
+    res.render('login')
+});
 module.exports = router;
