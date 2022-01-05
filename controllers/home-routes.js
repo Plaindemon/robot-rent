@@ -15,4 +15,8 @@ router.get('/login', (req, res) => {
     console.log('======================');
     res.render('login')
 });
+// router.get('/logout', (req, res) => {
+//     console.log('======================');
+//     res.render('logout')
+// });
 module.exports = router;

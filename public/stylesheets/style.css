@@ -65,3 +65,10 @@ footer {
   padding: 1%;
   font-size: 110%;
 }
+
+.login-form {
+  background-color: #c8f3cf;
+}
+.signup-form {
+  background-color: #c8f3cf;
+}
