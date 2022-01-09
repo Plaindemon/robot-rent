@@ -41,6 +41,7 @@ button:hover {
 
 
 header {
+  background-color: rgba(110, 128, 119, 0.452);
   border-bottom: 1px solid #ccc;
   display: flex;
   justify-content: space-between;
@@ -59,7 +60,8 @@ main {
 
 
 footer {
-  border-top: 1px solid #ccc;
+  background-color: rgba(110, 128, 119, 0.452);
+  border-top: 1px solid #cccccc;
   display: flex;
   justify-content: center;
   padding: 1%;
