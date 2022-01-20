@@ -101,3 +101,17 @@ footer {
 .signup-form {
   background-color: #c8f3cf;
 }
+
+.section-box {
+  background-color: #225ca369;
+  border: solid 2px #333;
+  padding:  2% 2%;
+  box-shadow: 5px 10px pink;
+}
+.new-post-form{
+  padding:  1% 1%;
+}
+
+.post-div{
+  padding: 1% 2%;
+}
