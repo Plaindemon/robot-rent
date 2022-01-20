@@ -11,7 +11,7 @@
 <body>
   <div class="wrapper">
     <header>
-      <h1>
+      <h1 class="blog-title">
         <a href="/">Blog Title Here</a>
       </h1>
       <nav>
@@ -24,11 +24,16 @@
         {{else}}
         <a href="/login">login</a>
         {{/if}} --}}
+        
       </nav>
     </header>
+    {{!-- {{> hero }} --}}
     <main>
+      
       {{{ body }}}
       {{ homepage }}
+      {{ single-post }}
+      {{ edit-post }}
       
     </main>
     <footer>
