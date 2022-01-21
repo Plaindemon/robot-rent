@@ -102,8 +102,19 @@ router.get('/login', (req, res) => {
       }
     res.render('login')
 });
+
 router.get('/logout', (req, res) => {
-    console.log('======================');
-    res.render('login')
+  // console.log(req.session.loggedIn);
+  if (req.session.loggedIn) {
+    req.session.destroy(() => {
+      // req.session.loggedIn = false;
+    //  console.log("Logout",req.session.loggedIn)
+    res.render('homepage')
+    });
+  }
+  else {
+    res.status(404).end();
+  }
 });
+
 module.exports = router;
