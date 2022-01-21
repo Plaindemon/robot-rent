@@ -80,10 +80,16 @@ footer {
 
 .post-list{
   padding: 4% 6%;
+  background-color: #225ca369;
+  border: solid 2px #333;
+  padding:  2% 2%;
+  box-shadow: 5px 10px pink;
+  list-style: none;
 }
 
 .post-list li{
   padding: 3% 3%;
+  font-size: 1em;
 }
 /* The hero image */
 .hero-image {
