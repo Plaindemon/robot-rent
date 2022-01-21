@@ -56,6 +56,14 @@ main {
   padding: 2% 4%;
 }
 
+main{
+  background-image: url('../images/graph.jpg');
+}
+
+#background-box{
+  background-color: rgba(255, 255, 255, 0.89);
+  padding: 2%;
+}
 
 footer {
   background-color: rgba(110, 128, 119, 0.452);
@@ -116,10 +124,16 @@ footer {
 }
 
 .login-form {
-  background-color: #c8f3cf;
+  background-color: #225ca369;
+  border: solid 2px #333;
+  padding:  4% 2%;
+  box-shadow: 5px 10px pink;
 }
 .signup-form {
-  background-color: #c8f3cf;
+  background-color: #225ca369;
+  border: solid 2px #333;
+  padding:  2% 2%;
+  box-shadow: 5px 10px pink;
 }
 
 .section-box {
