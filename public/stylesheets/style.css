@@ -37,8 +37,10 @@ button:hover {
 }
 
 header {
-  background-color: rgba(110, 128, 119, 0.452);
-  border-bottom: 1px solid #ccc;
+  background-color: #225ca369;
+  border: solid 2px #333;
+  padding:  2% 2%;
+  box-shadow: 5px 10px pink;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -69,8 +71,20 @@ footer {
   padding: 2% 2%;
 }
 
+.homepage-h1 {
+  background-color: #225ca369;
+  border: solid 2px #333;
+  padding:  2% 2%;
+  box-shadow: 5px 10px pink;
+}
 
+.post-list{
+  padding: 4% 6%;
+}
 
+.post-list li{
+  padding: 3% 3%;
+}
 /* The hero image */
 .hero-image {
   /* Use "linear-gradient" to add a darken background effect. This will make the text easier to read */
