@@ -1,11 +1,12 @@
 # robot-rent
 
-
 ## Description:
-  
+  MVC basic template blog
 
 ## Installation Instructions:
-  
+  - open heroku website below
+## License
+-- Website: https://sleepy-thicket-53058.herokuapp.com/
 
 ## Table of Contents
   - [Description](#description)
@@ -15,10 +16,6 @@
   - [Contributors](#contribution)
   - [Instillation](#install)
 
-## User Story 
-  -  
-  - 
-  - 
 
 ## Screenshots
 <img src='./public/images/'>
@@ -29,8 +26,6 @@
 ## Github
 -- https://github.com/plaindemon/robot-rent
 
-## License
--- N/A
 
 ## Languages used:
 -- JavaScript, HTML, CSS, Handlebars
@@ -49,12 +44,12 @@
 -- Github: Plaindemon
 
 
-User Story
+## User Story
 AS A developer who writes about tech
 I WANT a CMS-style blog site
 SO THAT I can publish articles, blog posts, and my thoughts and opinions
 
-Acceptance Criteria
+## Acceptance Criteria
 GIVEN a CMS-style blog site:
 
 WHEN I visit the site for the first time
